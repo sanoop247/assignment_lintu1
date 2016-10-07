@@ -1,11 +1,11 @@
 {
-  "name": "guitar",
+  "name": "lintu",
+  "description": "",
+  "main": "index.js",
   "authors": [
     "sanoop247 <sanoop247@gmail.com>"
   ],
-  "description": "",
-  "main": "",
-  "license": "MIT",
+  "license": "ISC",
   "homepage": "",
   "ignore": [
     "**/.*",
@@ -13,5 +13,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
 }
