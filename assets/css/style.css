@@ -1,0 +1,82 @@
+body{
+	background: url('../images/bg.jpg') no-repeat;
+	background-size: 100%;
+}
+.clear{
+	clear: both;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic;
+	color: #ffa64d;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: #99ccff;
+}
+.listings{
+	margin-top: 110px;
+}
+ul{
+	text-align: center;
+	background-color: #000;
+	padding: 10px 0px;
+	border-radius: 5px;
+}
+ul li{
+	display: inline-block;
+	padding-right: 10px;
+	border-right: 1px dashed #ccc;
+}
+ul li a{
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+ul li a:hover{
+	color: #a64dff;
+}
+.products{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: #cc99ff;
+	text-align: center;
+	margin-bottom: 250px;
+}
+.content{
+	text-align: center;
+	background-color: #000;	
+	margin-top: 350px;
+	min-height: 378px;
+}
+h3{
+	color: #99ccff;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: helvetica;
+	padding: 20px 0px;
+}
+.content h3{
+	text-align: left;
+}
+.image{
+	float: left;
+}
+.description{
+	color: #ffa64d;
+	text-align: left;
+	margin-left: 20px;
+	display: inline;
+}
+footer{
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 230px;
+	font-family: arial;
+}
